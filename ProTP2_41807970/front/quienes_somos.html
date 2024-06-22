@@ -3,73 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <footer class="bg-dark text-white mt-5">
-    <div class="container py-4 d-flex flex-column align-items-start">
-        <div class="row w-100">
-            <div class="col-lg-3">
-                <img src="assets/imagenes/logo.jpeg" alt="Logo de Mi Empresa" class="logo">
-            </div>
-            <div class="col-lg-9 text-right">
-              
-            </div>
-        </div>
-    </div>
-</footer>
-
-  
-  
+  <title>Quiénes Somos - Ajolote</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/miestilo.css">
   <!-- Estilos personalizados -->
   <style>
-    /* Estilos adicionales si los necesitas */
     body {
-      padding-top: 20px; 
+      padding-top: 70px; /* Ajuste para la barra de navegación fija */
+    }
+    .header-img {
+      width: 100%;
+      height: auto;
+    }
+    .content-section {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .content-section h1 {
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #fa8195;
+    }
+    .content-section p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+      color: #343a40;
     }
   </style>
 </head>
 <body>
-
   <!-- Barra de navegación -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-
-   
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="principal.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login.html">Ingresar</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/imagenes/logo.jpeg" alt="Logo de Ajolote" class="logo" height="40">
+      </a>
+      
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="principal.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <!-- Contenido principal -->
   <div class="container mt-5">
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <h1 class="text-center mb-4">Quiénes Somos</h1>
-        <p class="div class="division text-center-bold"">En Ajolote, nos dedicamos apasionadamente al cuidado integral de tus mascotas. Desde 2023, hemos sido un refugio confiable para la salud y el bienestar de los animales en Corrientes.</p>
-        <p>Nuestros Objetivos:
-
-            Cuidado Personalizado: Nos comprometemos a proporcionar un cuidado veterinario personalizado y de calidad, adaptado a las necesidades individuales de cada mascota.
-            
-            Salud Preventiva: Promovemos la salud preventiva a través de chequeos regulares, vacunaciones adecuadas y programas de control de parásitos, para asegurar una vida larga y saludable para tus compañeros peludos.
-            
-            Trato Respetuoso: Valoramos la relación entre humanos y animales, y nos esforzamos por crear un ambiente cálido y amigable donde tanto tú como tus mascotas se sientan cómodos y bienvenidos.
-            
-            Educación y Orientación: Nos comprometemos a educar a los dueños de mascotas sobre el cuidado adecuado y las prácticas saludables para sus animales, para fortalecer la relación entre ambos y mejorar la calidad de vida de nuestros pacientes.</p>
-        <p>En Ajolote, no solo cuidamos de tus mascotas, sino que también nos preocupamos profundamente por su felicidad y bienestar. Estamos aquí para ayudarte en cada paso del camino, desde la juventud hasta la vejez de tus fieles amigos de cuatro patas.
-
-            ¡Únete a nuestra familia veterinaria y descubre la diferencia en el cuidado de animales!</p>
+      <div class="col-lg-8 offset-lg-2 content-section">
+        <h1 class="text-center">Quiénes Somos</h1>
+        <p>En Ajolote, nos dedicamos apasionadamente al cuidado integral de tus mascotas. Desde 2023, hemos sido un refugio confiable para la salud y el bienestar de los animales en Corrientes.</p>
+        <h3 class="mt-4">Nuestros Objetivos:</h3>
+        <ul>
+          <li><strong>Cuidado Personalizado:</strong> Nos comprometemos a proporcionar un cuidado veterinario personalizado y de calidad, adaptado a las necesidades individuales de cada mascota.</li>
+          <li><strong>Salud Preventiva:</strong> Promovemos la salud preventiva a través de chequeos regulares, vacunaciones adecuadas y programas de control de parásitos, para asegurar una vida larga y saludable para tus compañeros peludos.</li>
+          <li><strong>Trato Respetuoso:</strong> Valoramos la relación entre humanos y animales, y nos esforzamos por crear un ambiente cálido y amigable donde tanto tú como tus mascotas se sientan cómodos y bienvenidos.</li>
+          <li><strong>Educación y Orientación:</strong> Nos comprometemos a educar a los dueños de mascotas sobre el cuidado adecuado y las prácticas saludables para sus animales, para fortalecer la relación entre ambos y mejorar la calidad de vida de nuestros pacientes.</li>
+        </ul>
+        <p>En Ajolote, no solo cuidamos de tus mascotas, sino que también nos preocupamos profundamente por su felicidad y bienestar. Estamos aquí para ayudarte en cada paso del camino, desde la juventud hasta la vejez de tus fieles amigos de cuatro patas.</p>
+        <p><strong>¡Únete a nuestra familia veterinaria y descubre la diferencia en el cuidado de animales!</strong></p>
       </div>
     </div>
   </div>
@@ -79,13 +83,11 @@
     <div class="container py-4">
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-          <p class="text-center mb-0">Mi Empresa &copy; 2024 | Todos los derechos reservados</p>
+          <p class="text-center mb-0">Ajolote Bienestar Animal &copy; 2024 | Todos los derechos reservados</p>
         </div>
       </div>
     </div>
   </footer>
-  
-  
 
   <!-- jQuery, Popper.js, Bootstrap JS local -->
   <script src="js/jquery-3.5.1.slim.min.js"></script>
